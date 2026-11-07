@@ -31,13 +31,13 @@
     "websiteUrl": "https://streetflex.vercel.app/index.html",
     "category": "E-commerce",
     "cardDescription": "E-Commerce website for street wear",
-    "thumbnail": "../media/image/project_icons/streetflexImg3.jpg",
+    "thumbnail": "../media/image/project_icons/streetFlexImg3.jpg",
     "overviewGallery": [],
     "details": {
       "projectName": "Street Flex",
       "overviewVideo": "../media/video/streetflex.mp4",
       "projectOverview": "E-Commerce website for street wear. The place where you can get Yourself Dripped-Out. Express Yourself in the streets. Built for a startup clothing brand in Cavite, StreetFlex lets customers browse the full catalog, filter by size, color, and price, and save items to a cart or wishlist. Customers can also place direct or pre-orders, track their orders, read and leave reviews, and get answers from the FAQs. Since the shop finalizes transactions face to face, the website works as a digital catalog and order record for the brand.",
-      "techStack": "VSCode, HTML, CSS, JavaScript, Node, Express, MongoDB, Mongoose",
+      "techStack": "VSCode, HTML,Node, Express, MongoDB, Mongoose, CSS, JavaScript",
       "byPartVideoExplanation": [
         {
           "videoUrl": "",
@@ -65,7 +65,7 @@
       "projectName": "CarSell",
       "overviewVideo": "../media/video/CarsellDemo.mp4",
       "projectOverview": "Car Dealership Web System. A database-driven system that replaces the scattered spreadsheets and paper records of a car dealership with one organized database. It manages car inventory, clients, sales, employees, and daily tasks, with a live dashboard showing revenue, monthly sales, and low-stock alerts. Recording a sale automatically updates the car stock and the client's purchase history. Built as a Final Project for Intermediate Information Management.",
-      "techStack": "VSCode, HTML, CSS, JavaScript, Node, Express, Knex.js, SupaBase, Postgre Sql",
+      "techStack": "VSCode, Node, Express, Knex.js, SupaBase, Postgre Sql, HTML, CSS, JavaScript",
       "byPartVideoExplanation": [
         {
           "videoUrl": "",
