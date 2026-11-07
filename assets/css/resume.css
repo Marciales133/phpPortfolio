@@ -1,0 +1,473 @@
+.main-content {
+    gap: 3rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.resume-container{
+    display: grid;
+    gap: 3rem;
+    margin-top: 3rem;
+    margin-inline: 1.5rem;
+}
+.resume-container section{
+    margin: 0;
+}
+
+
+
+
+.myself-container{
+    grid-column: 1;
+    grid-row: 1/3;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.project-experience-container{
+    padding: 1rem;
+}
+.education-container{
+    padding: 1rem;
+}
+.myself-container, .project-experience-container, .education-container{
+    background-color: var(--sectionBackground);
+    border: solid var(--sectionBorder);
+    box-shadow: var(--shadow-4);
+}
+
+
+/*myself-container*/
+
+.myself-container .image-container{
+    position: relative;
+}
+.myself-container h3 i{
+    font-size: 1.5rem;
+}
+.myself-container .image-container h2{
+    position: absolute;
+    left: .5rem;
+    bottom: .5rem;
+    color: rgb(255, 255, 255) !important;
+    text-shadow: -1px 1px 1px black;
+}
+.some-information-container{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid grey;
+}.some-information-container small{
+    margin-block: .3rem;
+}.some-information-container i{
+    font-size: 1rem;
+}
+
+.skills-container{
+    display: grid;
+    grid-template-rows: auto;
+    gap: .2rem;
+    flex: 1;
+}
+.sub-skills-containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: .5rem;
+    padding-block: 1rem;
+}
+.sub-skills-containers h3{
+    margin: 0;
+}
+.progress-contaiiner{
+    border: solid rgb(28, 42, 35);
+    height: 1.5rem;
+    position: relative;
+    background-color: grey;
+    filter: drop-shadow(1px 1px 2px var(--shadow-soft));
+}
+.progress-bar, .bookmark-on-progress{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.bookmark-on-progress small{
+    color: rgb(35, 77, 55);
+    font-weight: 700;
+    margin-left: 1rem;
+}
+.progress-bar{
+    width: 0;
+    background-color: var(--tertiary-400);
+}
+
+
+.download-resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(1px 1px 2px var(--shadow-soft));
+}
+
+
+
+
+
+
+
+.language-container{
+    margin-block: 1rem;
+}
+
+
+
+
+
+.project-experience-container h2 i, .education-container h2 i{
+    font-size: 2rem;
+}
+.resume-card p{
+    max-width: unset;
+    text-align: justify;
+    text-indent: 1rem;
+}
+.date-or-school{
+    color: var(--tertiary-400)
+}
+.date-or-school span{
+    border:1px solid var(--tertiary-700);
+    padding-inline: .5rem;
+    background-color: var(--tertiary-600) ;
+    border-radius: 1rem;
+    color: white;
+}
+.project-experience-container .resume-card i, .education-container .resume-card i{
+    font-size: 1rem;
+}
+
+
+
+
+
+.skills-container .progress-bar[style*="--skill-level"] {
+    animation: resume-skill-fill 2s ease-out forwards;
+}
+@keyframes resume-skill-fill {
+    from { width: 0; }
+    to { width: var(--skill-level, 0%); }
+}
+.tagalog{
+    animation: tagalog 2s forwards;
+}
+.english{
+    animation: english 2s forwards;
+}
+
+
+
+.swiper {
+    width: 100%;
+    padding: 1rem 1rem 2rem 1rem !important; /*     Give room for arrows */
+    position: relative; 
+     overflow: hidden; /* Don't override Swiper’s intent */
+    height: auto;
+    background-color: var(--sectionBackground);
+    border: solid var(--sectionBorder);
+    box-shadow: var(--shadow-4);
+}
+.swiper .image-container {
+    aspect-ratio: 3/2;
+    width: 100%;
+    display: block;
+    overflow: hidden; /* keeps image inside container */
+    background-color: black;
+}
+
+.swiper .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ensures image fills the container without distortion */
+    display: block;
+}
+
+.certificate-card {
+    box-sizing: border-box;
+    background-color: rgb(24, 126, 75);
+    border: solid rgb(17, 98, 57);
+    padding: 5%;
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    height: 100%;
+    filter: drop-shadow(1px 1px 2px var(--shadow-soft));
+}
+.certificate-tite{
+    padding: .5rem;
+}
+.certificate-tite h4{
+    background-color: var(--primary-500);
+    width: fit-content;
+    padding: .5rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.certificate-tite h5{
+    margin: 0;
+}
+
+
+.swiper-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: repeat(minmax(0, 1fr));
+    align-items: stretch;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+
+
+.main-nav li:nth-child(4) .nav-hover-bar{
+    background-color: #0F766E ;
+    width: 100%;
+}
+.main-nav li:nth-child(4) a{
+    color: #0F766E !important;
+}
+
+.cisco-cert{
+    background-color: rgb(31, 129, 119);
+}
+
+
+@media (min-width:420px) {
+    .some-information-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-bottom: solid grey;
+    }.some-information-container i{
+        font-size: 1rem;
+    }
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+    }
+
+}
+
+
+
+@media (min-width:768px) {
+    .resume-container{
+        display: grid;
+        grid-template-columns: 8fr 11fr;
+        grid-template-rows: auto 1fr;
+        gap: 1rem;
+        margin-top: 3rem;
+        margin-inline: 3rem;
+    }
+    .resume-container section{
+        margin: 0;
+    }
+    .myself-container{
+        grid-column: 1;
+        grid-row: 1/3;
+        padding: 1rem;
+    }
+    .project-experience-container{
+        padding: 1rem;
+    }
+    .education-container{
+        padding: 1rem;
+    }
+
+
+    /*myself-container*/
+    .myself-container .image-container{
+        position: relative;
+    }
+    .myself-container .image-container h2{
+        position: absolute;
+        left: .5rem;
+        bottom: .5rem;
+    }
+    .some-information-container{
+        display: flex;
+        flex-direction: column;
+        border-bottom: solid grey;
+    }.some-information-container i{
+        font-size: 1rem;
+    }
+    .progress-bar, .bookmark-on-progress{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+    .download-resume-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .language-container{
+        margin-block: 1rem;
+    }
+    .project-experience-container h2 i, .education-container h2 i{
+        font-size: 2rem;
+    }
+    .resume-card p{
+        text-align: unset;
+        text-indent: unset;
+    }
+    .project-experience-container .resume-card i, .education-container .resume-card i{
+        font-size: 1rem;
+    }
+    .certificate-card {
+        height: 100%;
+    }
+
+
+}
+
+
+
+/* LG - ≥1024px */
+@media (min-width: 1024px) {
+    .resume-container{
+        padding-inline: 1rem;
+        grid-template-columns: 2fr 4fr;
+        gap: 2rem;
+    }
+}
+
+/* XL - ≥1280px */
+@media (min-width: 1280px) {
+}
+
+/* 2K - ≥1440px */
+@media (min-width: 1440px) {
+}
+
+/* 4K - ≥1920px */
+@media (min-width: 1550px) {
+    .resume-container{
+        max-width: var(--max-width);
+    }
+    .cerificate-container{
+        padding-inline: 1rem;
+        max-width: var(--max-width);
+    }
+}
+
+
+@keyframes tagalog {
+    to{width: 100%;}
+}
+@keyframes english {
+    to{width: 85%;}
+}
+
+/*
+.education-experience{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.school{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: .5rem;
+}
+.dots-lines{
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.dot{
+    aspect-ratio: 1/1;
+    width:25px;
+    background-color: aqua;
+    border-radius: 100%;
+}
+.line{
+    height: 100%;
+    width: 3px;
+    background-color: aqua;
+    justify-self: center;
+    align-self: center;
+}
+.education-content{
+    display: flex;
+    flex-direction: column;
+}
+.education-content p{
+    margin: 0;
+}
+.education-content small::before{
+    content: '>';
+}
+
+
+
+.download-resume{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+*/
+
+/* Keep the original progress-bar appearance and language bars. */
+.skills-container .skill-label { overflow-wrap: anywhere; }
+@media (prefers-reduced-motion: reduce) {
+    .skills-container .progress-bar[style*="--skill-level"] { animation-duration: .01ms; }
+}
+
+/* Keep skill rows compact even when the adjacent project-experience column is taller. */
+.myself-container {
+    justify-content: flex-start;
+    align-self: start;
+    gap: 1rem;
+    min-width: 0;
+}
+.skills-container {
+    flex: 0 0 auto;
+    min-width: 0;
+}
+.sub-skills-containers {
+    justify-content: flex-start;
+    gap: .8rem;
+    padding-block: .65rem;
+}
+.skills-container .skill-wrapper,
+.skills-container .progress-contaiiner {
+    min-width: 0;
+}
+.skills-container .progress-contaiiner {
+    width: 100%;
+    overflow: hidden;
+}
+.skills-container .bookmark-on-progress {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    pointer-events: none;
+}
+.skills-container .bookmark-on-progress h5 {
+    margin: 0;
+    white-space: nowrap;
+}
+.skills-container .bookmark-on-progress small {
+    margin-left: .5rem;
+    font-size: .72rem;
+}
+.download-resume-container {
+    margin-top: .5rem;
+}

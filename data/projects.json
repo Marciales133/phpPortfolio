@@ -1,0 +1,333 @@
+[
+  {
+    "id": "dmc",
+    "category": "E-commerce",
+    "cardDescription": "E-Commerce website for DMC Merchandise",
+    "thumbnail": "../media/image/project_icons/dmc.png",
+    "overviewGallery": [],
+    "details": {
+      "projectName": "DMC E-Shop",
+      "overviewVideo": "../media/video/dmc.mp4",
+      "projectOverview": "E-Commerce website for DMC Merchandise. The place where you can get Your Own Devil Trigger. Express Yourself in the Community. Shoppers can browse the catalog, save items to a cart or wishlist (even as a guest), and check out with Cash on Delivery or a simulated GCash payment. Staff and admins manage products, stock, orders, cancellations, and refunds through role-based tools. The backend is built to be safe and consistent: every checkout is all-or-nothing, prices always come from the database, and sensitive customer data is encrypted.",
+      "techStack": "React, Node, Express, MySql, VSCode, HTML, CSS(Tailwind), JavaScript",
+      "byPartVideoExplanation": [
+        {
+          "videoUrl": "",
+          "partExplanation": "• Concept: A DMC-themed streetwear shop with its own look and feel.\n• Database: 37 MySQL tables for users, products, orders, and payments.\n• Roles: Separate access for guests, customers, staff, and admins.\n• Catalog: Products with sizes, stock, images, videos, and specs, grouped by category, set, and character.\n• Product Management: Staff can add, edit, archive, and restock products."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Cart & Wishlist: Works even for guests, no login needed to browse and save.\n• Checkout: Pick an address and a payment method (COD or simulated GCash), then place the order in one step.\n• Discounts: Apply a discount code at checkout, with all the rules validated.\n• Stock Safety: Stock is reserved at checkout, and if anything fails, nothing is saved.\n• Order History: Customers can view their own orders and payment status."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Order Handling: Staff move orders step by step: approved, processing, shipped, delivered.\n• Cancel & Refund: Customers send requests, staff approve or reject, and stock returns when needed.\n• Security: Customer phone numbers and addresses are encrypted and only shown on the shipping label.\n• Audit Log: Every staff action is recorded for accountability.\n• Showcase: Demo of the full shopping flow from browsing to delivery."
+        }
+      ]
+    }
+  },
+  {
+    "id": "street-flex",
+    "websiteUrl": "https://streetflex.vercel.app/index.html",
+    "category": "E-commerce",
+    "cardDescription": "E-Commerce website for street wear",
+    "thumbnail": "../media/image/project_icons/streetflexImg3.jpg",
+    "overviewGallery": [],
+    "details": {
+      "projectName": "Street Flex",
+      "overviewVideo": "../media/video/streetflex.mp4",
+      "projectOverview": "E-Commerce website for street wear. The place where you can get Yourself Dripped-Out. Express Yourself in the streets. Built for a startup clothing brand in Cavite, StreetFlex lets customers browse the full catalog, filter by size, color, and price, and save items to a cart or wishlist. Customers can also place direct or pre-orders, track their orders, read and leave reviews, and get answers from the FAQs. Since the shop finalizes transactions face to face, the website works as a digital catalog and order record for the brand.",
+      "techStack": "VSCode, HTML, CSS, JavaScript, Node, Express, MongoDB, Mongoose",
+      "byPartVideoExplanation": [
+        {
+          "videoUrl": "",
+          "partExplanation": "• Concept: An online shop for a streetwear brand, made to bring its face-to-face business online.\n• Problem: Customers had to scroll or message the shop just to ask about stock, prices, and sizes.\n• Design: Wireframes and a site map for the homepage, product page, and account pages.\n• Homepage: Hero banner, Our Story, New Arrivals, Curated Reviews, and a footer with policies.\n• Navigation: A side menu for Gallery, Reviews, FAQs, and My Activities (Cart, Wishlist, Orders, Profile)."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Gallery: All products in one place, with sorting by newest, price, and popularity.\n• Filters: Narrow down by category, tags, color, size, and price range.\n• Product Card: Pick a color, size, and quantity, then add to cart or order right away.\n• Stock Status: Out-of-stock items are clearly marked so customers know what's available.\n• Cart & Wishlist: Hold items to buy now, or save them for later.\n• Pre-Order: Reserve exclusive pieces that aren't in stock yet."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Accounts: Sign up, log in, and manage your profile and saved addresses.\n• Orders: Customers can track the status of every order they've placed.\n• Notifications: Updates on orders, refunds, and answers to FAQs.\n• Reviews: Buyers can rate products and leave written reviews, and others can vote if a review is useful.\n• FAQs & Policies: Common questions answered, plus refund, privacy, terms, and shipping policies.\n• Dev Team & Deployment: Meet the team behind the site, now live on Vercel."
+        }
+      ]
+    }
+  },
+  {
+    "id": "proj-webapp",
+    "websiteUrl": "https://marciales133.github.io/car_dealership/",
+    "category": "Web App",
+    "cardDescription": "Car Dealership Web System",
+    "thumbnail": "../media/image/project_icons/carsell.png",
+    "overviewGallery": [],
+    "details": {
+      "projectName": "CarSell",
+      "overviewVideo": "../media/video/CarsellDemo.mp4",
+      "projectOverview": "Car Dealership Web System. A database-driven system that replaces the scattered spreadsheets and paper records of a car dealership with one organized database. It manages car inventory, clients, sales, employees, and daily tasks, with a live dashboard showing revenue, monthly sales, and low-stock alerts. Recording a sale automatically updates the car stock and the client's purchase history. Built as a Final Project for Intermediate Information Management.",
+      "techStack": "VSCode, HTML, CSS, JavaScript, Node, Express, Knex.js, SupaBase, Postgre Sql",
+      "byPartVideoExplanation": [
+        {
+          "videoUrl": "",
+          "partExplanation": "• Concept: A dealership system that puts cars, clients, sales, and staff records in one place.\n• Database: 7 tables (departments, positions, employees, clients, cars, sales, tasks) designed in 3NF to avoid duplicate data.\n• ERD: Clear relationships, like one department having many positions, and employees reporting to a manager.\n• SQL Queries: 21 queries covering SELECT, JOIN, aggregate, subqueries, UPDATE, and DELETE.\n• Sample Data: Realistic records for every major table."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Inventory: Cars by brand, model, year, color, and price, with in-stock, sold, and reserved counts.\n• Add to Stock: Restock existing cars in one click.\n• Clients: Register clients, search and filter them, and tag them as New, Regular, VIP, or Blacklisted.\n• Sales: Press SOLD to record the sale, reduce car stock, and update the client's purchase history all at once.\n• Sales History: Filter by today, week, month, year, or all, and update the sale status."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Dashboard: Active employees, monthly sales, cars in inventory, revenue, new clients, and a 5-month sales trend.\n• Low Stock Alerts: Shows which cars are almost sold out and which are best-sellers.\n• Employees: Directory with department and position filters, full employee details, and clock-in/clock-out tracking.\n• Tasks: Add and delete daily reminders for staff.\n• Security: Passwords are hashed with bcrypt, with Admin, Manager, and Employee roles.\n• Showcase: Demo of CRUD on every module, from the interface down to the database."
+        }
+      ]
+    }
+  },
+  {
+    "id": "myMainPortfolio",
+    "category": "Portfolio",
+    "cardDescription": "House For All My Projects",
+    "thumbnail": "../media/image/aboutimage.jpg",
+    "overviewGallery": [],
+    "details": {
+      "projectName": "My Portfolio",
+      "overviewVideo": "",
+      "projectOverview": "This is the main portfolio project for showcasing all my work and for using the design techniques I have learned and developed myself. It is built to house and sell myself: a place where people can see my skills, certifications, and projects, and find a way to contact me. It also has an integrated resume that focuses on project-based merits rather than work experience, since I am still a student. Some functionalities from my other projects, like sorting, are reused here to make it better. Even though I could have used a more modern way of laying out and designing it, I went with a more traditional approach to make it more accessible and easier to maintain.",
+      "techStack": "VSCode, HTML, CSS, JavaScript",
+      "byPartVideoExplanation": [
+        {
+          "videoUrl": "",
+          "partExplanation": "• Concept: One home for all my projects, built to introduce me to recruiters and clients.\n• Approach: A traditional layout, chosen on purpose so it stays accessible and easy to maintain.\n• Student Focus: Highlights projects instead of work experience, since I am still a student.\n• Design: My own design techniques, applied across every page.\n• Structure: Organized folders for pages, media, and project data."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Projects: Every project gets its own card and a detailed page with an overview and tech stack.\n• Sorting: Reused from my other projects, so visitors can easily find what they want to see.\n• Skills: What I can do, shown clearly.\n• Certifications: Proof of what I've learned and completed.\n• Media: Images and videos that show each project in action."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Resume: Built into the site, with merits based on my projects instead of work history.\n• Contact: A clear way for visitors to reach me.\n• User Experience: Easy to navigate and readable on different screens.\n• Maintainability: Plain HTML, CSS, and JavaScript, so it's simple to update when I add new projects.\n• Showcase: The main page that connects everything I've built."
+        }
+      ]
+    }
+  },
+  {
+    "id": "proj-flight404",
+    "category": "Landing Page",
+    "cardDescription": "Flight Booking Website",
+    "thumbnail": "../media/image/project_icons/flight404.png",
+    "overviewGallery": [],
+    "details": {
+      "projectName": "Flight 404",
+      "overviewVideo": "../media/video/flight.mp4",
+      "projectOverview": "This project was for the sole purpose of learning how to add effective animation and design choices. its a website for booking flights and for general introduction of this airline(Made-up).",
+      "techStack": "VSCode, HTML, CSS, JavaScript",
+      "byPartVideoExplanation": [
+        {
+          "videoUrl": "",
+          "partExplanation": "• Concept: Define the main goal and purpose of the project.\n• Planning: Outline features, workflow, and key milestones.\n• Structure: Organize folders and setup initial files.\n• Environment: Choose tools, frameworks, or languages to use.\n• Setup: Install dependencies and verify configuration.\n• Version Control: Initialize Git and push initial commit.\n• Design: Create layout, interface, or initial wireframe."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Core Logic: Implement the main functionality or prototype.\n• Features: Add supporting modules or extended capabilities.\n• Testing: Debug errors and verify stability.\n• Optimization: Improve performance and clean up unused code.\n• Configuration: Add user settings or adjustable parameters.\n• Assets: Add visuals, icons, or supporting media."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Audio: Integrate sound effects or background audio (optional).\n• User Experience: Refine layout, feedback, and interactivity.\n• Quality Check: Ensure everything works across all conditions.\n• Build: Compile or package the final version for release.\n• Deployment: Host or publish on the chosen platform.\n• Showcase: Prepare documentation, demo, or presentation.\n• Review: Collect feedback and polish final details."
+        }
+      ]
+    }
+  },
+  {
+    "id": "proj-ecommerce1",
+    "category": "Landing Page",
+    "cardDescription": "E-commerce for Raw Goods",
+    "thumbnail": "../media/image/project_icons/ecommerce.png",
+    "overviewGallery": [],
+    "details": {
+      "projectName": "'s Crops & Materials",
+      "overviewVideo": "../media/video/ecommerce.mp4",
+      "projectOverview": "This project is a placeholder for the e-commerce site I am planning to make for my family's farming business in our province. Its purpose is to help them expand their area of operation, not just in our region but throughout the country. For now, it showcases the crops and potential products that will be available for transport. It is also a way of honing my skills in design and in polishing a website, mainly my basic CSS animation, Swiper, and CSS skills in general, with a little JavaScript for basic functionalities.",
+      "techStack": "VSCode, HTML, CSS, JavaScript, Swiper",
+      "byPartVideoExplanation": [
+        {
+          "videoUrl": "",
+          "partExplanation": "• Concept: A landing page for my family's farming business, made to reach customers across the country.\n• Purpose: Show the crops and potential products available for transport.\n• Placeholder: A preview of the full e-commerce site I plan to build later.\n• Design: A clean layout made to show off raw goods.\n• Structure: Simple HTML sections for each part of the page."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Layout & Styling: Built with pure CSS to practice and polish my design skills.\n• CSS Animations: Smooth effects that make the page feel alive.\n• Swiper: A slider to browse the crops and products.\n• Basic JavaScript: Just enough for the simple interactions.\n• Assets: Photos and icons of the crops and materials."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• User Experience: Easy to read, smooth to scroll, and nice to look at.\n• Polish: Fine-tuned spacing, colors, and animations.\n• Responsive: Looks good on different screen sizes.\n• Next Step: Grow it into a full e-commerce site for the family business.\n• Showcase: Demo of the page and the animations."
+        }
+      ]
+    }
+  },
+  {
+    "id": "proj-ecommerce2",
+    "category": "E-commerce",
+    "cardDescription": "Brings Delicious Recipes to You",
+    "thumbnail": "../media/image/project_icons/recipe.png",
+    "overviewGallery": [],
+    "details": {
+      "projectName": "Simple Recipe",
+      "overviewVideo": "../media/video/recipe.mp4",
+      "projectOverview": "This is one of my early projects. I followed a YouTube tutorial one to one just to get the gist of building a responsive website, and it taught me more than that. It uses only HTML and CSS to bridge the two together. It is a simple recipe page where you can find easy-to-make dishes. Unfortunately, the recipes are limited because it is just a project for improvement.",
+      "techStack": "VSCode, HTML, CSS",
+      "byPartVideoExplanation": [
+        {
+          "videoUrl": "",
+          "partExplanation": "• Concept: A simple recipe page with easy-to-make dishes.\n• Purpose: Learn how to build a responsive website from scratch.\n• Approach: Followed a YouTube tutorial one to one to understand the full process.\n• Structure: Organized HTML sections for the header, recipes, and footer.\n• Stack: Only HTML and CSS, to learn how the two work together."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Layout: Built with HTML and styled with CSS.\n• Recipe Cards: Each dish has its own card with an image and details.\n• Styling: Colors, fonts, spacing, and hover effects made with CSS.\n• Responsive: The layout adjusts to different screen sizes.\n• Assets: Food photos and icons."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• User Experience: Clean, readable, and easy to browse.\n• Testing: Checked how the page looks on different screen sizes.\n• Limitation: Only a few recipes, since it is a learning project.\n• Lesson: Learned the basics of responsive design and how HTML and CSS connect.\n• Showcase: Demo of the page and how it adapts to screen size."
+        }
+      ]
+    }
+  },
+  {
+    "id": "proj-desktop1",
+    "category": "Desktop App",
+    "cardDescription": "PlaceHolder for Desktop Application",
+    "thumbnail": "../media/image/project_icons/Band Player.png",
+    "overviewGallery": [
+      "../media/image/BandPlayerImages/mainMenu.png",
+      "../media/image/BandPlayerImages/lyrics.png",
+      "../media/image/BandPlayerImages/description.png",
+      "../media/image/BandPlayerImages/play.png"
+    ],
+    "details": {
+      "projectName": "Band Player",
+      "overviewVideo": "",
+      "projectOverview": "This is part of my final project, where I needed to use a specific data structure technique, and mine was Stack. The project also required a database, so I used MySQL Workbench. It is a song player where you pick a band, then an album, then a specific song in that album. You then see the lyrics and more details about the song, and finally you can play it. I could have made a local song player, but I chose not to because of safety and legal concerns, so I used YouTube's API to play the songs instead. It was a steep learning curve: I only knew HTML and CSS and was barely proficient in JavaScript, then I was handed an unfamiliar tech stack and a brand-new database with only a month to finish.",
+      "techStack": "Visual Studio, Windows Forms, C#, MySQL Workbench, YouTube API",
+      "byPartVideoExplanation": [
+        {
+          "videoUrl": "",
+          "partExplanation": "• Concept: A song player where you go from band, to album, to song, then play it.\n• Requirement: A final project that must use the Stack data structure and a database.\n• Stack: Visual Studio, Windows Forms, and C#, all new to me.\n• Database: MySQL Workbench to store the bands, albums, songs, and lyrics.\n• Design: Windows Forms screens for the main menu, lyrics, description, and player."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Band Selection: Pick a band from the main menu.\n• Album Selection: See the albums of that band.\n• Song Selection: Choose a song from the album.\n• Stack: The required data structure technique, applied in the app.\n• Database Connection: All the data comes from MySQL, not hard-coded."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Lyrics: Read the lyrics of the song you picked.\n• Description: See more details about the song.\n• Play: Play the song through the YouTube API.\n• Legal Choice: Used YouTube instead of local audio files to avoid safety and copyright issues.\n• Lesson: Learned a new language, a new database, and finished it in one month."
+        }
+      ]
+    }
+  },
+  {
+    "id": "proj-desktop2",
+    "category": "Desktop App",
+    "cardDescription": "Desktop App",
+    "thumbnail": "../media/image/project_icons/School Supply Store.png",
+    "overviewGallery": [],
+    "details": {
+      "projectName": "School Supply Store",
+      "overviewVideo": "../media/video/SchoolSupplyStoreTransactionApp.mp4",
+      "projectOverview": "This is part of my final project, where I needed to use a specific data structure technique, and mine was Array. The project also required a database, so I used MySQL Workbench. The app simulates a cashier's computer where they can process transactions and see if an item is currently in stock while doing so. It updates as you use it, so there is no wrong information about whether an item is in stock or not. This project was a big jump for me: I came from only HTML and CSS, so C# and databases were new, and I had only a month to finish.",
+      "techStack": "Visual Studio, Windows Forms, C#, MySQL Workbench",
+      "byPartVideoExplanation": [
+        {
+          "videoUrl": "",
+          "partExplanation": "• Concept: A cashier computer simulation for a school supply store.\n• Requirement: A final project that must use the Array data structure and a database.\n• Stack: Visual Studio, Windows Forms, and C#.\n• Database: MySQL Workbench to store the items and their stock.\n• Design: A cashier-style Windows Forms screen made for fast transactions."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Transactions: Add items and complete a purchase like a real cashier.\n• Stock Check: See if an item is in stock while the transaction is ongoing.\n• Live Updates: Stock changes as the app is used, so the information is always correct.\n• Array: The required data structure technique, applied in the app.\n• Database Connection: Items and stock are read from and updated in MySQL."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Accuracy: No outdated stock information during a transaction.\n• User Experience: A simple, cashier-friendly flow.\n• Lesson: Learned C# and databases from scratch under a one-month deadline.\n• Showcase: Demo video of a full transaction from start to finish."
+        }
+      ]
+    }
+  },
+  {
+    "id": "proj-desktop3",
+    "category": "Desktop App",
+    "cardDescription": "Desktop App",
+    "thumbnail": "../media/image/project_icons/Song & Album Finder.png",
+    "overviewGallery": [],
+    "details": {
+      "projectName": "Song & Album Finder",
+      "overviewVideo": "../media/video/BandLookUp.mp4",
+      "projectOverview": "This is part of my final project, where I needed to use a specific data structure technique, and mine was Graph. The project also required a database, so I used MySQL Workbench. The program graphs the places where the album and songs you are looking for can be found, shows the distance and price at each location, then recommends the best store based on which is nearest. It was a curve that hit hard: I only knew HTML and CSS and was barely proficient in JavaScript, then I was hit with an unfamiliar tech stack and a very new database, with only a month to finish everything.",
+      "techStack": "Visual Studio, Windows Forms, C#, MySQL Workbench",
+      "byPartVideoExplanation": [
+        {
+          "videoUrl": "",
+          "partExplanation": "• Concept: Find where an album or song is sold, and which store is the best choice.\n• Requirement: A final project that must use the Graph data structure and a database.\n• Stack: Visual Studio, Windows Forms, and C#.\n• Database: MySQL Workbench to store the stores, albums, songs, and prices.\n• Design: A Windows Forms screen for searching and viewing results."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Search: Look up the album or song you want.\n• Graph: The places that have it are mapped as a graph.\n• Distance: See how far each place is.\n• Price: See the price at each place.\n• Database Connection: All store and item data comes from MySQL."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Best Store: The app recommends the nearest store.\n• Comparison: Distance and price are shown together so you can decide.\n• Lesson: Learned graphs, C#, and databases all at once, in one month.\n• Showcase: Demo video of searching and getting the best store."
+        }
+      ]
+    }
+  },
+  {
+    "id": "proj-blog",
+    "category": "Blog Page",
+    "cardDescription": "PlaceHolder for Blog Page",
+    "thumbnail": "../media/image/project_icons/inproduction.png",
+    "overviewGallery": [],
+    "details": {
+      "projectName": "PlaceHolder",
+      "overviewVideo": "",
+      "projectOverview": "This project is planned or in progress. Details will be added here when available.",
+      "techStack": "VSCode, HTML, CSS, JavaScript, Node, Express, MongoDB, Mongoose",
+      "byPartVideoExplanation": [
+        {
+          "videoUrl": "",
+          "partExplanation": "• Concept: Define the main goal and purpose of the project.\n• Planning: Outline features, workflow, and key milestones.\n• Structure: Organize folders and setup initial files.\n• Environment: Choose tools, frameworks, or languages to use.\n• Setup: Install dependencies and verify configuration.\n• Version Control: Initialize Git and push initial commit.\n• Design: Create layout, interface, or initial wireframe."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Core Logic: Implement the main functionality or prototype.\n• Features: Add supporting modules or extended capabilities.\n• Testing: Debug errors and verify stability.\n• Optimization: Improve performance and clean up unused code.\n• Configuration: Add user settings or adjustable parameters.\n• Assets: Add visuals, icons, or supporting media."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Audio: Integrate sound effects or background audio (optional).\n• User Experience: Refine layout, feedback, and interactivity.\n• Quality Check: Ensure everything works across all conditions.\n• Build: Compile or package the final version for release.\n• Deployment: Host or publish on the chosen platform.\n• Showcase: Prepare documentation, demo, or presentation.\n• Review: Collect feedback and polish final details."
+        }
+      ]
+    }
+  },
+  {
+    "id": "proj-spaceShooter",
+    "category": "2D Games",
+    "cardDescription": "Space Shooter parody",
+    "thumbnail": "../media/image/project_icons/spaceshooter.png",
+    "overviewGallery": [],
+    "details": {
+      "projectName": "Space Shooter",
+      "overviewVideo": "../media/video/spaceShooter.mp4",
+      "projectOverview": "A space shooter game made as a parody, with a funny twist on the classic formula. It was built with Python and Pygame. Unfortunately, the source code and working prototype are gone for good because of data loss when I changed devices, so the demo video is what remains of the project.",
+      "techStack": "VSCode, Python, Pygame",
+      "byPartVideoExplanation": [
+        {
+          "videoUrl": "",
+          "partExplanation": "• Concept: A classic space shooter turned into a funny parody.\n• Platform: Python and Pygame.\n• Setup: Installed Pygame and tested the game window.\n• Game Loop: Input, update, and draw, repeated every frame.\n• Assets: Ships, lasers, and enemies for the game."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Player: A ship you can move and shoot with.\n• Enemies: Targets to shoot down.\n• Collisions: Detect when shots and ships hit each other.\n• Parody: Humor added to the visuals and gameplay.\n• Testing: Played and fixed issues until it ran smoothly."
+        },
+        {
+          "videoUrl": "",
+          "partExplanation": "• Showcase: The demo video shows the game in action.\n• Status: The source code and prototype were lost due to data loss from a device change.\n• Lesson: Learned the importance of backing up projects.\n• Takeaway: My first experience building a 2D game in Python."
+        }
+      ]
+    }
+  }
+]
